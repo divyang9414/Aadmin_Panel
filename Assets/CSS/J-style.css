@@ -1,0 +1,99 @@
+.aside-aerrow{
+    rotate: 180deg;
+    transition: all 0.3s linear;
+}
+.aside-small{
+    position: fixed;
+	background-color: var(--gblu);
+	top: 0;
+	left: 0;
+	width:75px;
+	height: 100vh;
+	overflow-x: hidden;
+}
+.header-main-large{
+    margin-left:75px;
+}
+.aside-move{
+	position: fixed;
+	top:15px;
+	left:calc(75px - 30px/2);
+	width: 32px;
+	background-color: var(--secondary);
+	padding: 4px 0 6px 0;
+	text-align: center;
+	border: 2px solid var(--primary);
+	border-radius: 8px;
+	cursor: pointer;
+} 
+.aside-hover{
+	width:265px;
+}
+.down-aerrow{
+    rotate: 180deg;
+    transition: all 0.3s linear;
+}
+/* .h-600{
+	height: 600px;
+} */
+.hide{
+    display: none !important;
+}
+.show{
+	display: block !important;
+}
+.hidden{
+    opacity: 0;
+}
+.visible{
+	opacity: 1;
+}
+/* TRANSITIONS */
+header{
+	transition: all 0.2s linear;
+}
+aside{
+    transition: all 0.2s linear;
+}
+.aside-hider{
+	transition: all 0.2s linear;
+}
+.dashboards li i{
+	transition: all 0.2s linear;
+}
+.pages li i{
+	transition: all 0.2s linear;
+}
+.apps li i{
+	transition: all 0.2s linear;
+}
+.layouts li i{
+	transition: all 0.2s linear;
+}
+.help li i{
+	transition: all 0.2s linear;
+}
+main{
+	transition: all 0.2s linear;
+}
+/* TRAIL-CURSOR */
+#trail-cursor {
+	position: fixed;
+	display: block;
+	border-radius: 0;
+	transform-origin: center center;
+	mix-blend-mode: difference;
+	top: 0;
+	left: 0;
+	z-index: 10000000000000000;
+}
+.circle {
+	pointer-events: none;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
