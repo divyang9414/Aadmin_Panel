@@ -33,7 +33,7 @@ const ctx2 = document.getElementById('myChart2');
     type: 'bubble',
     data: {
       datasets: [{
-        label: 'tu ja re',
+        label: 'Project Overview',
         data: [{
           x: 20,
           y: 30,
