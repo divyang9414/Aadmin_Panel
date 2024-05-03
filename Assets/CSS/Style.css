@@ -627,6 +627,7 @@ nav::-webkit-scrollbar-thumb:hover {
 main{
 	margin-left: 0px;
 	background-color: var(--secondary);
+	padding: 0 0 60px 0;
 }
 .main-title{
 	padding: 25px;
